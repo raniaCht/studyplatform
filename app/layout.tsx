@@ -5,7 +5,7 @@ import "./globals.css";
 const avenir = localFont({
   src: "./fonts/avenir.otf",
   variable: "--font-avenir",
-  weight: "100 900",
+  weight: "100 200 400 500 600 900",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${avenir.variable} font-avenir container mx-auto antialiased`}
+        className={`${avenir.variable} font-avenir container mx-auto bg-gray-50 antialiased`}
       >
         {children}
       </body>
