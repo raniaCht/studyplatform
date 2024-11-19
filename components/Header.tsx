@@ -5,7 +5,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="text-black flex justify-around items-center py-4">
+    <header className="text-black flex justify-around items-center py-4 container mx-auto">
       <h1 className="flex justify-center items-center gap-2 text-xl font-bold">
         <Image src="/logo.png" width={50} height={50} alt="logo" />
         <span>Study Platform</span>
