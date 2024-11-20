@@ -5,3 +5,9 @@ export type serviceType = {
   title: string;
   description: string;
 };
+
+export type contryType = {
+  image: string;
+  name: string;
+  offerNumber: string;
+};
