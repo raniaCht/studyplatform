@@ -1,6 +1,7 @@
 import { MoveRight, Star } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import ButtonMoveRight from "./ButtonMoveRight";
 
 function Hero() {
   return (
@@ -23,12 +24,7 @@ function Hero() {
               Discover Best opportunities that will help you to succeed in
               Future path with our card
             </p>
-            <button className="flex flex-nowrap justify-center items-center gap-2 px-4 py-2 shadow-primary bg-blue-400 rounded-lg active:shadow-none active:-translate-x-1 active:translate-y-1">
-              <span className="whitespace-nowrap text-white">
-                Order your card
-              </span>
-              <MoveRight />
-            </button>
+            <ButtonMoveRight text="Order your card" />
           </div>
         </div>
         <div className="relative w-full flex justify-center items-center">

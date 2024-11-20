@@ -5,7 +5,7 @@ import "./globals.css";
 const avenir = localFont({
   src: "./fonts/avenir.otf",
   variable: "--font-avenir",
-  weight: "100 200 400 500 600 800 900",
+  weight: "100 200 400 500 600 700 800 900",
 });
 
 export const metadata: Metadata = {

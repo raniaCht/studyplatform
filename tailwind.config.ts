@@ -21,6 +21,7 @@ export default {
       backgroundImage: {
         primary:
           "linear-gradient(to right top, #aff4c6, #5fe5d3, #00d1eb, #00b9fe, #0d99ff)",
+        services: "url('/images/bg-services.png')",
       },
     },
   },
