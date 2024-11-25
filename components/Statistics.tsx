@@ -1,7 +1,7 @@
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import ButtonMoveRight from "./ButtonMoveRight";
+import ButtonWithShadow from "./ButtonWithShadow";
 
 function Statistics() {
   return (
@@ -62,7 +62,10 @@ function Statistics() {
                   </span>
                 </div>
               </div>
-              <ButtonMoveRight text="See how it works" />
+              <ButtonWithShadow
+                text="See how it works"
+                icon={<MoveRight className="text-white" />}
+              />
             </div>
           </div>
         </div>

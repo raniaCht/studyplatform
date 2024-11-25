@@ -1,7 +1,7 @@
 import { MoveRight, Star } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import ButtonMoveRight from "./ButtonMoveRight";
+import ButtonWithShadow from "./ButtonWithShadow";
 
 function Hero() {
   return (
@@ -24,7 +24,10 @@ function Hero() {
               Discover Best opportunities that will help you to succeed in
               Future path with our card
             </p>
-            <ButtonMoveRight text="Order your card" />
+            <ButtonWithShadow
+              text="Order your card"
+              icon={<MoveRight className="text-white" />}
+            />
           </div>
         </div>
         <div className="relative w-full flex justify-center items-center">
