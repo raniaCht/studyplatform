@@ -5,6 +5,7 @@ import Review from "./Review";
 import Masonry from "react-masonry-css";
 import ButtonWithShadow from "./ButtonWithShadow";
 import { MoveRight } from "lucide-react";
+import ReviewCount from "./ReviewCount";
 
 const reviews: reviewType[] = [
   {
@@ -96,7 +97,7 @@ const reviews: reviewType[] = [
 
 function Reviews() {
   return (
-    <div className="bg-white">
+    <div className="bg-white mb-20">
       <div className="container mx-auto flex flex-col items-center py-10">
         <h1 className="text-black text-3xl mb-10 text-center">
           We-link card is the most recommended <br /> check yourself.
@@ -116,6 +117,9 @@ function Reviews() {
           ))}
         </Masonry>
         <ButtonWithShadow icon={<MoveRight />} text="Order your card" />
+        <div className="mt-20 self-start">
+          <ReviewCount />
+        </div>
       </div>
     </div>
   );
