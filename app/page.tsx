@@ -1,6 +1,7 @@
 import Contries from "@/components/Contries";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import Statistics from "@/components/Statistics";
 import Steps from "@/components/Steps";
@@ -15,6 +16,7 @@ export default function Home() {
       <Statistics />
       <Contries />
       <Steps />
+      <Reviews />
     </>
   );
 }

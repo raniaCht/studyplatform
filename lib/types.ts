@@ -11,3 +11,11 @@ export type contryType = {
   name: string;
   offerNumber: string;
 };
+
+export type reviewType = {
+  text: string;
+  ownerName: string;
+  ownerUsername: string;
+  image: string;
+  date: string;
+};
