@@ -1,4 +1,5 @@
 import Contries from "@/components/Contries";
+import FAQs from "@/components/FAQs";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Payments from "@/components/Payments";
@@ -19,6 +20,7 @@ export default function Home() {
       <Steps />
       <Reviews />
       <Payments />
+      <FAQs />
     </>
   );
 }
