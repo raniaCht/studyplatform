@@ -7,7 +7,7 @@ import ButtonWithShadow from "./ButtonWithShadow";
 function Steps() {
   return (
     <div className="bg-white flex flex-col items-center py-10">
-      <h2 className="text-2xl text-black">How does we-link card work?</h2>
+      <h2 className="text-2xl text-black">How does StudyPlatform card work?</h2>
       <div className="flex flex-col mt-5 w-full relative">
         <span className="absolute w-[1px] h-[69%] opacity-10 bg-black top-[15%] right-1/2 -translate-x-1/2"></span>
         <span className="w-5 h-5 rounded-full bg-black absolute top-[15%] left-1/2 -translate-x-1/2"></span>

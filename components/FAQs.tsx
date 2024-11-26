@@ -8,15 +8,15 @@ const questions = [
     A: "A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players. \n Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce.",
   },
   {
-    Q: "Do I need to pay to We-link even when there is no transaction going on in my business?",
+    Q: "Do I need to pay to StudyPlatform even when there is no transaction going on in my business?",
     A: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
   },
   {
-    Q: "What platforms does We-link payment gateway support?",
+    Q: "What platforms does StudyPlatform payment gateway support?",
     A: "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
   },
   {
-    Q: "Does We-link provide international payments support?",
+    Q: "Does StudyPlatform provide international payments support?",
     A: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
   },
   {
@@ -28,7 +28,7 @@ const questions = [
 function FAQs() {
   const [qSelected, setQSelected] = useState(0);
   return (
-    <div className="bg-white min-h-[500px]">
+    <div className="bg-white min-h-[600px] ">
       <div className="container mx-auto py-20">
         <h1 className="text-black text-center text-3xl mb-5">
           Frequently Asked Questions

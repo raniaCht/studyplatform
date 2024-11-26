@@ -1,5 +1,6 @@
 import Contries from "@/components/Contries";
 import FAQs from "@/components/FAQs";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Payments from "@/components/Payments";
@@ -21,6 +22,7 @@ export default function Home() {
       <Reviews />
       <Payments />
       <FAQs />
+      <Footer />
     </>
   );
 }
