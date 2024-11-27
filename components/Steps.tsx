@@ -9,10 +9,10 @@ function Steps() {
     <div className="bg-white flex flex-col items-center py-10">
       <h2 className="text-2xl text-black">How does StudyPlatform card work?</h2>
       <div className="flex flex-col mt-5 w-full relative">
-        <span className="absolute w-[1px] h-[69%] opacity-10 bg-black top-[15%] right-1/2 -translate-x-1/2"></span>
-        <span className="w-5 h-5 rounded-full bg-black absolute top-[15%] left-1/2 -translate-x-1/2"></span>
-        <span className="w-5 h-5 rounded-full bg-black absolute top-1/2 left-1/2 -translate-x-1/2"></span>
-        <span className="w-5 h-5 rounded-full bg-black absolute bottom-[15%] left-1/2 -translate-x-1/2"></span>
+        <span className="absolute hidden lg:block w-[1px] h-[69%] opacity-10 bg-black top-[15%] right-1/2 -translate-x-1/2"></span>
+        <span className="w-4 h-4 hidden lg:block rounded-full bg-black absolute top-[15%] left-1/2 -translate-x-1/2"></span>
+        <span className="w-4 h-4 hidden lg:block rounded-full bg-black absolute top-1/2 left-1/2 -translate-x-1/2"></span>
+        <span className="w-4 h-4 hidden lg:block rounded-full bg-black absolute bottom-[15%] left-1/2 -translate-x-1/2"></span>
 
         <Step
           bgColor="bg-white"
@@ -20,8 +20,8 @@ function Steps() {
           isReverse={false}
           title="Fill the information form to open an account "
         >
-          <div className="flex flex-col items-start text-lg gap-2">
-            <p className="">
+          <div className="flex flex-col items-center lg:items-start text-lg gap-2">
+            <p className="text-center lg:text-start">
               The information that we receive will help us to send you right
               offers and opportunities that matched with your filed of study &
               guide you in a good path
@@ -40,7 +40,7 @@ function Steps() {
           isReverse={true}
           title="pay for you card subscription"
         >
-          <p className="text-lg">
+          <p className="text-lg text-center lg:text-start">
             The subscription fee is annual and includes all the features of the
             card without any difference in payment plans
           </p>
@@ -51,8 +51,8 @@ function Steps() {
           isReverse={false}
           title="Start using your card in few second"
         >
-          <div className="flex flex-col items-start text-lg gap-2">
-            <p className="">
+          <div className="flex flex-col items-center lg:items-start text-lg gap-2">
+            <p className="text-center lg:text-start">
               You can get your card virtually to start using it or wait to get
               your Physical card
             </p>

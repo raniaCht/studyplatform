@@ -7,24 +7,24 @@ function Statistics() {
   return (
     <div className="bg-white py-16">
       <div className="container mx-auto">
-        <div className="flex justify-between items-start ">
+        <div className="flex flex-col-reverse lg:flex-wrap justify-between items-start ">
           <div className="w-full flex justify-center">
             <Image src="/images/floating.png" width={464} height={536} alt="" />
           </div>
-          <div className="w-full flex flex-col items-start text-black gap-10">
-            <p className="text-lg font-normal">
+          <div className="w-full flex flex-col items-center lg:items-start text-black gap-10">
+            <p className="text-lg font-normal lg:text-start text-center">
               Save time searching for unique opportunities for your future, only
               through our card you have all the possibilities
             </p>
-            <div className="flex flex-col items-start gap-6">
+            <div className="flex flex-col items-center lg:items-start gap-6">
               <h4 className="text-lg font-medium">
                 Point of Shop offers discounts
               </h4>
-              <div className="flex flex-col items-start">
+              <div className="flex flex-col items-center lg:items-start">
                 <span className="text-4xl font-bold">3.5K</span>
                 <span className="text-gray-400">Using our student plan</span>
               </div>
-              <div className="flex flex-col items-start">
+              <div className="flex flex-col items-center lg:items-start">
                 <span className="text-4xl font-bold">15K</span>
                 <span className="text-gray-400">
                   Scholarship opportunity worldwide

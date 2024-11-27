@@ -105,11 +105,10 @@ function Reviews() {
         <Masonry
           breakpointCols={{
             default: 3,
-            900: 3,
-            700: 2,
-            300: 1,
+            900: 2,
+            600: 1,
           }}
-          className="flex gap-14 shadow-review h-[1000px] overflow-hidden mb-5"
+          className="flex gap-14 shadow-review h-[1000px] overflow-hidden mb-5 px-4"
           columnClassName="my-masonry-grid_column"
         >
           {reviews.map((review) => (
@@ -117,7 +116,7 @@ function Reviews() {
           ))}
         </Masonry>
         <ButtonWithShadow icon={<MoveRight />} text="Order your card" />
-        <div className="mt-20 self-start">
+        <div className="mt-20 self-center lg:self-start">
           <ReviewCount />
         </div>
       </div>

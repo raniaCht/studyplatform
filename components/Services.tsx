@@ -33,7 +33,7 @@ const services: serviceType[] = [
 function Services() {
   return (
     <div className="bg-services bg-white bg-no-repeat bg-cover py-16">
-      <div className="container mx-auto flex justify-between gap-10">
+      <div className="container mx-auto flex flex-wrap items-center w-full justify-between">
         {services.map((service) => (
           <Service
             icon={service.icon}

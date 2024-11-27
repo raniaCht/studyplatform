@@ -60,7 +60,7 @@ function Contries() {
         <span className="text-sm text-black">
           We always try to provide you with opportunities and expand your goals
         </span>
-        <div className="grid grid-cols-3 gap-10 mt-6 w-2/3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mt-6 w-full lg:w-2/3">
           {contries.map((contry) => (
             <ContryCard contry={contry} />
           ))}

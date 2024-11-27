@@ -7,21 +7,21 @@ import ReviewCount from "./ReviewCount";
 function Hero() {
   return (
     <div>
-      <div className="flex justify-between items-start py-16 gap-5 container mx-auto">
+      <div className="flex lg:flex-row flex-col justify-between items-start py-16 gap-16 lg:gap-5 container mx-auto">
         <div className="flex flex-col items-start gap-16 w-full">
           <div className="flex flex-col items-start gap-8">
-            <p className="font-bold text-lg text-gray-400">
+            <p className="font-bold text-lg text-center lg:text-start w-full text-gray-400">
               The new generation of Student card with real benifit
             </p>
-            <h1 className="font-bold text-7xl text-black">
+            <h1 className="font-bold text-7xl text-center lg:text-start text-black">
               Digital Card For Student
             </h1>
-            <p className="font-normal text-6xl text-black">
+            <p className="font-normal text-center lg:text-start w-full text-6xl text-black">
               Lead your success path
             </p>
           </div>
-          <div className="flex justify-between items-center gap-6 ">
-            <p className="text-gray-400">
+          <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-6 ">
+            <p className="text-gray-400 text-center lg:text-start">
               Discover Best opportunities that will help you to succeed in
               Future path with our card
             </p>

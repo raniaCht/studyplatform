@@ -33,8 +33,8 @@ function FAQs() {
         <h1 className="text-black text-center text-3xl mb-5">
           Frequently Asked Questions
         </h1>
-        <div className="flex relative justify-end">
-          <div className="w-1/2 h-auto absolute top-6 left-10 border border-opacity-10 border-gray-400 bg-white text-black flex flex-col">
+        <div className="flex flex-col lg:flex-row relative justify-end">
+          <div className="w-full lg:w-1/2 h-auto relative lg:absolute top-6 left-0 lg:left-10 border border-opacity-10 border-gray-400 bg-white text-black flex flex-col">
             {questions.map((question, index) => (
               <button
                 className={`w-full px-4 py-4 flex justify-start items-center gap-2 border-opacity-10 border-b border-b-gray-400 ${
@@ -52,7 +52,7 @@ function FAQs() {
               </button>
             ))}
           </div>
-          <div className="min-h-72 bg-gray-200 w-1/2 text-black p-10 ps-12 shadow-answer rounded-lg">
+          <div className="min-h-72 bg-gray-200 w-full lg:w-1/2 text-black p-10 ps-12 shadow-answer rounded-lg">
             {questions[qSelected].A}
           </div>
         </div>

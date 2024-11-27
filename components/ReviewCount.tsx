@@ -3,7 +3,7 @@ import React from "react";
 
 function ReviewCount() {
   return (
-    <div className="container mx-auto flex justify-start text-black gap-4">
+    <div className="container mx-auto flex justify-center lg:justify-start text-black gap-4">
       <div className="flex justify-start items-center gap-3">
         <span className="text-3xl flex justify-center items-end">
           <span className="text-5xl font-semibold">4.7</span> /5
